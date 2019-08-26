@@ -1,0 +1,66 @@
+{
+    "name": "vuejs-spinner",
+    "version": "0.1.0",
+    "description": "A spinner library component for Vue.js",
+    "scripts": {
+        "serve": "vue-cli-service serve",
+        "build": "vue-cli-service build",
+        "lint": "vue-cli-service lint",
+        "build-bundle": "vue-cli-service build --target lib --name spinnerDemo ./src/components/index.js"
+    },
+    "dependencies": {
+        "core-js": "^2.6.5",
+        "vue": "^2.6.10"
+    },
+    "devDependencies": {
+        "@vue/cli-plugin-babel": "^3.11.0",
+        "@vue/cli-plugin-eslint": "^3.11.0",
+        "@vue/cli-service": "^3.11.0",
+        "babel-eslint": "^10.0.1",
+        "eslint": "^5.16.0",
+        "eslint-plugin-vue": "^5.0.0",
+        "vue-template-compiler": "^2.6.10"
+    },
+    "eslintConfig": {
+        "root": true,
+        "env": {
+            "node": true
+        },
+        "extends": [
+            "plugin:vue/essential",
+            "eslint:recommended"
+        ],
+        "rules": {},
+        "parserOptions": {
+            "parser": "babel-eslint"
+        }
+    },
+    "postcss": {
+        "plugins": {
+            "autoprefixer": {}
+        }
+    },
+    "browserslist": [
+        "> 1%",
+        "last 2 versions"
+    ],
+    "main": "./dist/spinnerDemo.common.js",
+    "files": [
+        "dist/*",
+        "src/*",
+        "public/*",
+        "*.json",
+        "*.js"
+    ],
+    "keywords": [
+        "vuejs-spinner",
+        "vuejs-loader",
+        "vue spinner",
+        "vue loader",
+        "vuejs"
+    ],
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/amitkhonde/vuejs-spinner.git"
+    }
+}
