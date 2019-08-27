@@ -1,5 +1,7 @@
 # vuejs-spinner
 
+## [Demo](https://vue-spinner-demo.web.app/)
+
 ## Installation
 ```
 npm install --save vuejs-spinner
